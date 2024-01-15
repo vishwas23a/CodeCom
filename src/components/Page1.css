@@ -3,7 +3,7 @@
   padding: 0px;
 }
 .background1 {
-  background-image: url("./images/back.jpg");
+  background-image: url("./src/images/back.jpg");
   background-size: cover;
   height: 603px;
   width: 100%;
@@ -41,7 +41,7 @@
   -webkit-text-fill-color: transparent;
 }
 .codeimage {
-  background-image: url("./images/codeimage.svg");
+  background-image: url("./src/images/codeimage.svg");
   background-size: cover;
   height: 240%;
   width: 55%;
