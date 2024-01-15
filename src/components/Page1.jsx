@@ -1,7 +1,19 @@
 import React from "react";
 import "./Page1.css";
 import Page2 from "./Page2";
-import backg from '../components/back.jpg'
+import image1 from '../components/images/back.jpg'
+import image2 from '../components/images/codeimage.svg'
+import image3 from '../components/images/notes.png'
+import image4 from '../components/images/notes.png'
+import image5 from '../components/images/linkedin.png'
+import image6 from '../components/images/instagram.png'
+import image7 from '../components/images/github.png'
+import image8 from '../components/images/logo1.png'
+import image9 from '../components/images/aboutback.svg'
+
+
+
+
 import { useNavigate } from "react-router-dom";
 
 export default function Page1() {
@@ -10,16 +22,16 @@ const Navigate=useNavigate();
   return (
     <>
 
-      <div className="background1" style={{backgroundImage:`url(${backg})` }}>
+      <div className="background1" style={{backgroundImage:`url(${image1})` }}>
         <div className="code">
           <div className="codehead">
             <h2>Welcome to</h2>
             <h1>CodeCom</h1>
           </div>
-          <div className="codeimage"></div>
+          <div className="codeimage" style={{backgroundImage:`url(${image2})` }}></div>
         </div>
         <div className="codebox">
-          <div className="codebox1">
+          <div className="codebox1" style={{backgroundImage:`url(${image3})` }}>
             <h2>Creat</h2>
             <h3> Community</h3>
             
@@ -27,7 +39,7 @@ const Navigate=useNavigate();
               Create
             </button>
           </div>
-          <div className="codebox2">
+          <div className="codebox2" style={{backgroundImage:`url(${image4})`}}>
             <h2>Join a</h2>
             <h3> Community</h3>
             <input type="text" placeholder="Code" />
@@ -39,17 +51,17 @@ const Navigate=useNavigate();
         <div className="codeicons">
           <div className="linkedin">
             <a href="https://linkedin.com/in/vishwas-verma23a" target="_blank">
-              <img src="./images/linkedin.png" alt="" />
+              <img src={image5} alt="" />
             </a>
           </div>
           <div className="insta">
             <a href="https://www.instagram.com/vishwas_23a/" target="_blank">
-              <img src="./images/instagram.png" alt="" />
+              <img src={image6} alt="" />
             </a>
           </div>
           <div className="insta">
             <a href="https://github.com/vishwas23a" target="_blank">
-              <img src="./images/github.png" alt="" />
+              <img src={image7} alt="" />
             </a>
           </div>
         </div>
@@ -58,25 +70,25 @@ const Navigate=useNavigate();
         <h1 className="abouthead">About Us</h1>
 
         <div className="aboutvision">
-          <div className="visionimage">
+          <div className="visionimage" style={{backgroundImage:`url(${image9})`}}>
             <div className="visionimage1">
               <h2>Our Vision</h2>
 
               <p>
           
-                <img src="./images/logo1.png" alt="" /> Lorem ipsum doloratione
+                <img src={image8}alt="" /> Lorem ipsum doloratione
                 maxime, maiores veniam deserunt iste expli.
               </p>
               <p>
                 
-                <img src="./images/logo1.png" alt="" />
+                <img src={image8} alt="" />
                 Lorem ipsum dolors veniam deserunt iste explicabo rerum!
                 Doloribus
               </p>
 
               <p>
                
-                <img src="./images/logo1.png" alt="" /> Lorem ipsum dolors
+                <img src={image8}alt="" /> Lorem ipsum dolors
                 veniam deserunt iste explicabo rerum! Doloribus
               </p>
             </div>
@@ -85,19 +97,19 @@ const Navigate=useNavigate();
 
               <p>
             
-                <img src="./images/logo1.png" alt="" /> Lorem ipsum doloratione
+                <img src={image8} alt="" /> Lorem ipsum doloratione
                 maxime, maiores veniam deserunt iste expli
               </p>
               <p>
 
-                <img src="./images/logo1.png" alt="" />
+                <img src={image8}alt="" />
                 Lorem ipsum dolors veniam deserunt iste explicabo rerum!
                 Doloribu.
               </p>
 
               <p>
               
-                <img src="./images/logo1.png" alt="" /> Lorem ipsum dolors
+                <img src={image8} alt="" /> Lorem ipsum dolors
                 veniam deserunt iste explicabo rerum! Doloribus,
               </p>
             </div>

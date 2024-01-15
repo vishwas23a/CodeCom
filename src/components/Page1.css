@@ -3,7 +3,6 @@
   padding: 0px;
 }
 .background1 {
-  /* background-image: url("./images/back.jpg"); */
   background-size: cover;
   height: 603px;
   width: 100%;
@@ -40,7 +39,7 @@
   -webkit-text-fill-color: transparent;
 }
 .codeimage {
-  background-image: url("./images/codeimage.svg");
+  /* background-image: url("./images/codeimage.svg"); */
   background-size: cover;
   height: 240%;
   width: 55%;
@@ -62,14 +61,14 @@
 .codebox1 {
   height: 94%;
   width: 44%;
-  background-image: url("./images/notes.png");
+  /* background-image: url("./images/notes.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 .codebox2 {
   height: 94%;
   width: 44%;
-  background-image: url("./images/notes.png");
+  /* background-image: url("./images/notes.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -87,9 +86,7 @@
   margin-left: 50px;
 }
 .codebox2 h2 {
-  /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)	;
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
+
   color: white;
   font-size: 1.9rem;
   margin: auto;
@@ -97,9 +94,7 @@
   margin-left: 90px;
 }
 .codebox2 h3 {
-  /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)	;
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
+
   color: white;
   font-size: 2.1rem;
   margin: auto;
@@ -263,38 +258,13 @@
   color: white;
 }
 
-/* .aboutvision{
-        height:100%;
-        gap: 40px;
-        margin-top: 12%;
-    } */
-/* .vision1{
-        height: 100%;
-        width: 50%;
-        z-index: 2;
-        border: 2px solid red;
-    
-    }
-    .vision1 h2{
-        font-size: 2.3rem;
-        color: rgb(223, 86, 86);
-        position: relative;
-        z-index: 1;
-    }
-    .vision1 p{
-        margin-top: 5%;
-        color: rgb(56, 58, 59);
-        font-size: 1.3rem;
-    } */
-.aboutvision {
-}
+
 
 .visionimage {
   margin-top: 3%;
   height: 750px;
   display: flex;
   width: 100%;
-  background-image: url("./images/aboutback.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
