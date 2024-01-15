@@ -221,14 +221,12 @@
   }
   
 .codeabout{
-  text-align: center;
+    text-align: center;
     overflow:hidden;
     position:relative;
     height: 1000px;
-    background-image: url('./images/codebox1.png');
-    z-index: -2;
-    background-repeat: no-repeat;
-    background-size: cover;
+ 
+    
     }
     .codeabout::before{ 
     content:'';
@@ -252,36 +250,178 @@
     }
     }
     .abouthead {
-        z-index: 1;
+        
         font-size: 2.3rem;
         margin-top: 5px;
         color:  white;
     }
      
-    .aboutvision{
-        display: flex;
-        height:30%;
+    /* .aboutvision{
+        height:100%;
         gap: 40px;
         margin-top: 12%;
-        justify-content: center;
-    }
-    .vision1{
-        border: 1px solid red;
+    } */
+    /* .vision1{
         height: 100%;
         width: 50%;
-
+        z-index: 2;
+        border: 2px solid red;
+    
     }
     .vision1 h2{
         font-size: 2.3rem;
-color: rgb(249, 239, 239);
+        color: rgb(223, 86, 86);
+        position: relative;
+        z-index: 1;
     }
     .vision1 p{
         margin-top: 5%;
         color: rgb(56, 58, 59);
         font-size: 1.3rem;
+    } */
+    .aboutvision{
+
     }
-    .visionimage{
-        border: 1px solid red;
-        height: 100%;
+ 
+    .visionimage {
+        margin-top: 3%;
+        height:750px;
+        display: flex;
+        width: 100%;
+        background-image: url('./images/aboutback.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .visionimage1{
         width: 50%;
     }
+.visionimage1 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    width: 100%;
+    font-size: 2.2rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)	;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.visionimage1 p{
+    display: flex;
+    margin: 10px;
+    width: 80%;
+    margin-left: 6%;
+}
+.visionimage1 p img{
+    height: 20px ;
+    width: 20px;
+    margin-right: 10px;
+}
+.visionimage2{
+    width: 50%;
+}
+.visionimage2 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    margin-right: 20px;
+    width: 100%;
+    font-size: 2.2rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)	;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.visionimage2 p{
+    display: flex;
+    margin: 10px;
+    width: 80%;
+    justify-content: center;
+    margin-left: 6%;
+}
+.visionimage2 p img{
+    height: 20px ;
+    width: 20px;
+    margin-right: 7px;
+}
+.team{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 16%;
+    height: 10%;
+}
+.front {
+margin-top: 23px;
+}
+.team p{
+    font-size: 1.4rem;
+    margin-left: 27%;
+    
+}
+
+.teamhead {
+    width: 10%;
+    margin-left: 30%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.footer{
+    width: 100%;
+    background-color: rgb(64, 59, 59);
+        height:155px;
+        position: absolute;
+        margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.product1 h2{
+ margin-bottom: 10px;
+
+}
+.product1 a{
+  color: rgb(134, 125, 125);
+  margin-top: 5px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+.product1 a:hover{
+    color: white;
+}
+.product2 h2{
+    margin-bottom: 10px;
+   
+   }
+   .product2 a{
+     color: rgb(134, 125, 125);
+     margin-top: 5px;
+     text-decoration: none;
+     display: flex;
+     flex-direction: column;
+   }
+   .product2 a:hover{
+       color: white;
+   }
+   .product3 h2{
+    margin-bottom: 15px;
+   }
+   .product3 a{
+     color: rgb(134, 125, 125);
+     margin-top: 28px;
+     text-decoration: none;
+     display: flex;
+     flex-direction: column;
+    
+   }
+   .product3 a:hover{
+       color: white;
+   }
