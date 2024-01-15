@@ -1,6 +1,7 @@
 import React from "react";
 import "./Page1.css";
 import Page2 from "./Page2";
+import backg from '../../public/images/back.jpg'
 import { useNavigate } from "react-router-dom";
 
 export default function Page1() {
@@ -9,7 +10,7 @@ const Navigate=useNavigate();
   return (
     <>
 
-      <div className="background1">
+      <div className="background1" style={{backgroundImage:`url(${backg})` }}>
         <div className="code">
           <div className="codehead">
             <h2>Welcome to</h2>
@@ -62,19 +63,19 @@ const Navigate=useNavigate();
               <h2>Our Vision</h2>
 
               <p>
-                {" "}
+          
                 <img src="./images/logo1.png" alt="" /> Lorem ipsum doloratione
                 maxime, maiores veniam deserunt iste expli.
               </p>
               <p>
-                {" "}
+                
                 <img src="./images/logo1.png" alt="" />
                 Lorem ipsum dolors veniam deserunt iste explicabo rerum!
                 Doloribus
               </p>
 
               <p>
-                {" "}
+               
                 <img src="./images/logo1.png" alt="" /> Lorem ipsum dolors
                 veniam deserunt iste explicabo rerum! Doloribus
               </p>
@@ -83,18 +84,19 @@ const Navigate=useNavigate();
               <h2>Service</h2>
 
               <p>
-                {" "}
+            
                 <img src="./images/logo1.png" alt="" /> Lorem ipsum doloratione
                 maxime, maiores veniam deserunt iste expli
               </p>
               <p>
+
                 <img src="./images/logo1.png" alt="" />
                 Lorem ipsum dolors veniam deserunt iste explicabo rerum!
                 Doloribu.
               </p>
 
               <p>
-                {" "}
+              
                 <img src="./images/logo1.png" alt="" /> Lorem ipsum dolors
                 veniam deserunt iste explicabo rerum! Doloribus,
               </p>

@@ -3,7 +3,7 @@
   padding: 0px;
 }
 .background1 {
-  background-image: url("./images/back.jpg");
+  /* background-image: url("./images/back.jpg"); */
   background-size: cover;
   height: 603px;
   width: 100%;
@@ -15,7 +15,6 @@
 }
 .codehead {
   margin-left: 8%;
-
   margin-top: 4%;
 }
 .codehead h2 {
@@ -215,7 +214,6 @@
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
   transform: translateY(-2px);
 }
-
 .button2:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
