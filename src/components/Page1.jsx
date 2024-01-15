@@ -1,7 +1,7 @@
 import React from "react";
 import "./Page1.css";
 import Page2 from "./Page2";
-import backg from '../../public/images/back.jpg'
+import backg from '../components/back.jpg'
 import { useNavigate } from "react-router-dom";
 
 export default function Page1() {
