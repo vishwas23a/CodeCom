@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container {
+    background-size: cover;
+    height: 603px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+  .container img{
+    width: 63%;
+    margin-top: 15px;
+    position: absolute;
+    
+  }
+  .codeheadpage2{
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    margin-left: 10%;
+    justify-content: center;
+}
+.codeheadpage2 h2{
+    font-size: 3.1rem;
+    
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.codeheadpage2 h1{
+    font-size: 5.3rem;
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .form{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .details{
+    height: 80%;
+        background-color: rgba(246, 237, 237, 0.45);
+        box-shadow: 0px 0px 5px 1px rgb(165, 165, 176);
+    z-index: 1;
+    width: 65%;
+    border-radius: 70px;
+  }
+  .inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+.inputs input{
+     width: 30%;
+     margin: 10px;
+     background-color: transparent;
+     border: 1px solid rgb(155, 147, 147);
+     border-radius: 10px;
+    color: rgb(111, 110, 109);
+     z-index: 2;
+     padding: 10px;
+}
+.inputs input:focus{
+border: 2px solid #5183f0ec;
+outline: none;
+}
+.inputs label{
+  display: flex;
+  color: rgb(117, 119, 121);
+  align-items: center;
+}
+.page2button {
+  align-items: center;
+  
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.page2button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.page2button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.page2button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+

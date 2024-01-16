@@ -1,6 +1,5 @@
 import React from "react";
 import "./Page1.css";
-import Page2 from "./Page2";
 import image1 from '../components/images/back.jpg'
 import image2 from '../components/images/codeimage.svg'
 import image3 from '../components/images/notes.png'
