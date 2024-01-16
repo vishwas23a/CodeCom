@@ -16,6 +16,25 @@
     position: absolute;
     
   }
+  .backbutton{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 30px;
+    z-index: 2;
+    
+  }
+
+
+  .backbutton img {
+    margin-left:6% ;
+    width: 25px;
+    height: 25px;
+
+  }
+
+
   .codeheadpage2{
     width: 100%;
     display: flex;
@@ -80,9 +99,10 @@
     color: rgb(111, 110, 109);
      z-index: 2;
      padding: 10px;
+
 }
 .inputs input:focus{
-border: 2px solid #5183f0ec;
+border: 1px solid #5183f0ec;
 outline: none;
 }
 .inputs label{

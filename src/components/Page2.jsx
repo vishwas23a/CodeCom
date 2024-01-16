@@ -2,12 +2,23 @@ import React from 'react'
 import "./Page2.css"
 import pageimg1 from '../components/images/back.jpg'
 import pageimg2 from '../components/images/codeimage.svg'
+import pagelogo1 from '../components/images/previous.png'
+import pagelogo2 from '../components/images/next-button.png'
+
+
+
 import { useNavigate } from 'react-router-dom'
 export default function Page2() {
   const Navigate=useNavigate();
 
   return (
     <div className='container' style={{backgroundImage:`url(${pageimg1})`}}>
+     <div className="backbutton">
+      <a href="/"> <img src={pagelogo1} alt="" /></a> 
+      
+
+   
+    </div> 
                 <div className="codeheadpage2">
             <h2>Welcome to</h2>
             <h1>CodeCom</h1>

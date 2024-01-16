@@ -28,6 +28,7 @@ const router= createBrowserRouter([
     path: "Page3",
     element: <Page3/>,
   },
+
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
