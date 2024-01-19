@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Page3.css";
 import { useNavigate } from "react-router-dom";
 function Page3() {
   const Navigation = useNavigate();
+
+  const [isDivVisible, setDivVisibility] = useState(true);
+
+  const hideDiv = () => {
+    setDivVisibility(false);
+  };
+  const showDiv = () => {
+    setDivVisibility(true);
+    
+  };
+    const [isVisible, setIsVisible] = useState(false);
+  
+    const toggleVisibility = () => {
+      setIsVisible(!isVisible);
+    };
+  
+  
   return (
     <div className="maincont">
       <div className="mainnav">
@@ -11,7 +28,13 @@ function Page3() {
         </button>
 
         <h1>CodeCom</h1>
-        <button class="setting-btn" title="About">
+        {isVisible &&  <div className="abouttext" > 
+        <h2>vishwas</h2>
+        <h2>vishwasverma23@gmail.com</h2>
+        <h2>9506862942</h2>
+        </div>}
+        <button class="setting-btn" title="About" onClick={toggleVisibility}>
+        {isVisible}
           <span class="bar bar1"></span>
           <span class="bar bar2"></span>
           <span class="bar bar1"></span>
@@ -20,8 +43,8 @@ function Page3() {
       <div className="maincont2">
         <div className="mainname">Vishwas23a</div>
         <div className="mainbutton">
-          <button className="but1">Java</button>
-          <button className="but2">C++</button>
+          <button className="but1" onClick={showDiv} >Java</button>
+          <button className="but2" onClick={hideDiv}>C++</button>
 
           <button className="but3">React Js</button>
 
@@ -33,20 +56,18 @@ function Page3() {
         <button className="but6"> Resources</button>
         <button className="but7"> Competition</button>
         <button className="but8">Video Call</button>
-        <div className="message">
+        
+        {isDivVisible && (  <div className="message" id="java1">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            ipsam totam deleniti natus doloribus culpa est dolor error
-            accusantium? Necessitatibus nobis vitae, officia minima nulla sequi?
-            Laboriosam doloribus ipsam modi.s
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            ipsam totam deleniti natus doloribus culpa est dolor error
-            accusantium? Necessitatibus nobis vitae, officia minima nulla sequi?
-            Laboriosam doloribus ipsam modi.s
+         
           </p>
         </div>
+        )}
+        <di className="message">
+          <p>skgxksbx</p>
+        </di>
+
       </div>
     </div>
   );
