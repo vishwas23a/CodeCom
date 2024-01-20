@@ -1,0 +1,18 @@
+.cpluscont{
+    position: absolute;
+    position: absolute;
+
+    background-color: rgb(204, 41, 87);
+    margin-top:200px;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 1021px;
+    height: 431px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.cpluscont h1{
+color: aqua;
+}

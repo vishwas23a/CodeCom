@@ -1,0 +1,19 @@
+
+.javacont{
+    position: absolute;
+
+    background-color: red;
+    margin-top:200px;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 1021px;
+    height: 431px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.javacont h1{
+color: aqua;
+}

@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import Page2 from './components/Page2.jsx'
-
+import Category from './components/Category.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import SolutionBlog from './components/SolutionBlog.jsx'
 import Page3 from './components/Page3.jsx'
+import Target from './components/Target.jsx'
 
 const router= createBrowserRouter([
   {
@@ -20,13 +21,18 @@ const router= createBrowserRouter([
     path:"Page2",
     element:<Page2/>,
   },
+  
+  {
+    path: "Page3/*",
+    element: <Category/>,
+  },
   {
     path: "SolutionBlog",
     element: <SolutionBlog/>,
   },
   {
-    path: "Page3",
-    element: <Page3/>,
+    path: "Target",
+    element: <Target/>,
   },
 
 ]);

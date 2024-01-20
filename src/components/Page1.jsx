@@ -126,23 +126,23 @@ const Navigate=useNavigate();
         <div className="footer">
           <div className="product1">
             <h2>Resource</h2>
-            <a href="SolutionBlog">Solution</a>
-            <a href="#">Chat System</a>
-            <a href="#">Notes</a>
+            <a onClick={()=>Navigate('/SolutionBlog')} >Solution</a>
+            <a onClick={()=>Navigate('/SolutionBlog')} >Chat System</a>
+            <a onClick={()=>Navigate('/SolutionBlog')} >Notes</a>
 
-            <a href="#">Video call</a>
+            <a onClick={()=>Navigate('/SolutionBlog')} >Video call</a>
           </div>
           <div className="product2">
             <h2>Target</h2>
-            <a href="#">College</a>
-            <a href="#">Coding clubs</a>
-            <a href="#">Friends</a>
-            <a href="#">Open Community</a>
+            <a onClick={()=>Navigate('/Target')}>College</a>
+            <a onClick={()=>Navigate('/Target')}>Coding clubs</a>
+            <a onClick={()=>Navigate('/Target')}>Friends</a>
+            <a onClick={()=>Navigate('/Target')}>Open Community</a>
           </div>
           <div className="product3">
             <h2>Contact Info</h2>
-            <a href="#">vishwasverma23@gmail.com</a>
-            <a href="#"> 9506862942</a>
+            <a href="mailto:vishwasverma23@gmail.com">vishwasverma23@gmail.com</a>
+            <a href="https://wa.me/919506862942?text=Hello%20Vishwas" target="_blank"> 9506862942</a>
           </div>
         </div>
       </div>

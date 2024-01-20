@@ -1,0 +1,18 @@
+.javascrcont{
+     
+    position: absolute;
+
+    background-color: rgb(93, 0, 255);
+    margin-top:200px;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 1021px;
+    height: 431px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.javascrcont h1{
+color: aqua;
+}

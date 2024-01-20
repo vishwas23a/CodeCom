@@ -1,0 +1,19 @@
+
+.membercont{
+    position: absolute;
+
+    background-color: rgb(31, 139, 201);
+    margin-top:200px;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 1021px;
+    height: 431px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.membercont h1{
+color: aqua;
+}

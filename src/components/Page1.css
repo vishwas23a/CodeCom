@@ -405,6 +405,8 @@ border: 0px solid #5468ff  ;
 }
 .product1 a:hover {
   color: white;
+  cursor: pointer;
+
 }
 .product2 h2 {
   margin-bottom: 10px;
@@ -418,6 +420,9 @@ border: 0px solid #5468ff  ;
 }
 .product2 a:hover {
   color: white;
+  cursor: pointer;
+
+  
 }
 .product3 h2 {
   margin-bottom: 15px;
@@ -431,4 +436,5 @@ border: 0px solid #5468ff  ;
 }
 .product3 a:hover {
   color: white;
+  cursor: pointer;
 }
