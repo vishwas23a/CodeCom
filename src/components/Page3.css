@@ -134,9 +134,10 @@
   height: 100%;
   border: 1px solid black;
   font-size: 15px;
-  background-color: rgb(114, 110, 110);
-  color: rgb(198, 192, 192);
+  background-color: rgba(114, 110, 110, 0.42);
   border: 1px solid white;
+  color: rgb(55, 53, 53);
+
 }
 .mainbutton button:hover {
   cursor: pointer;
@@ -154,10 +155,11 @@
   height: 109px;
   width: 100%;
   font-size: 15px;
-  background-color: rgb(114, 110, 110);
 
-  color: rgb(198, 192, 192);
+  background-color: rgba(114, 110, 110, 0.42);
   border: 1px solid white;
+  color: rgb(55, 53, 53);
+
 }
 .mainleft button:hover {
   cursor: pointer;
