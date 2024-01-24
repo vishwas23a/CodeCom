@@ -140,7 +140,7 @@ const prevSlide4 = () => {
 
       </div>
 
-       <button className="arrow left" onClick={prevSlide4}>&#9655;</button>
+       <button className="arrow left" onClick={prevSlide4}>&#9665;</button>
       <button className="arrow right" onClick={nextSlide4}>&#9655;</button> 
     </div> 
       </div>

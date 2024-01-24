@@ -27,11 +27,11 @@ function Page3() {
             <h2>9506862942</h2>
           </div>
         )}
-        <button class="setting-btn" title="About" onClick={toggleVisibility}>
+        <button className="setting-btn" title="About" onClick={toggleVisibility}>
           {isVisible}
-          <span class="bar bar1"></span>
-          <span class="bar bar2"></span>
-          <span class="bar bar1"></span>
+          <span className="bar bar1"></span>
+          <span className="bar bar2"></span>
+          <span className="bar bar1"></span>
         </button>
       </div>
       <div className="maincont2">
