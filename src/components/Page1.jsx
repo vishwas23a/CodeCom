@@ -21,7 +21,7 @@ const Navigate=useNavigate();
   return (
     <>
 
-      <div className="background1" style={{backgroundImage:`url(${image1})` }}>
+      <div className="background1" style={{backgroundImage:`url(${image1})`}}>
         <div className="joined"> <button>Already Joined?</button></div>
         <div className="code">
           <div className="codehead">

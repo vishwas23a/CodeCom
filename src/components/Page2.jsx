@@ -14,7 +14,7 @@ export default function Page2() {
   return (
     <div className='container' style={{backgroundImage:`url(${pageimg1})`}}>
      <div className="backbutton">
-      <a href="/"> <img src={pagelogo1} alt="" /></a> 
+      <a onClick={()=>Navigate("/")}> <img src={pagelogo1} alt="" /></a> 
       
 
    
