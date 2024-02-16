@@ -4,7 +4,6 @@ import pageimg1 from '../components/images/back.jpg'
 import pageimg2 from '../components/images/codeimage.svg'
 import pagelogo1 from '../components/images/previous.png'
 
-import fs from 'fs';
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 export default function Page2() {
