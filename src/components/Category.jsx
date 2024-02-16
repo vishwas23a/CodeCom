@@ -23,13 +23,6 @@ export default function Category() {
     <Route path='/Resources' element={<Resources/>}/>
     <Route path='/Competition' element={<Competition/>}/>
     <Route path='/Videocall' element={<Videocall/>}/>
-
-
-
-
-
-
-
     </Route>
 
    </Routes>
