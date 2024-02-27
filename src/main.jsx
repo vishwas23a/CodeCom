@@ -25,12 +25,12 @@ const router= createBrowserRouter([
     element: <Page1/>,
   },
   {
-    path:"Page2",
+    path:"/Page2",
     element:<Page2/>,
   },
   
   {
-    path: "Page3",
+    path: "/Page3",
     element: <Page3/>,
     children:[{
       path:'Java',
@@ -69,11 +69,11 @@ const router= createBrowserRouter([
   ]
   },
   {
-    path: "SolutionBlog",
+    path: "/SolutionBlog",
     element: <SolutionBlog/>,
   },
   {
-    path: "Target",
+    path: "/Target",
     element: <Target/>,
   },
 
