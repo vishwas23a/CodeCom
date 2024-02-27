@@ -41,35 +41,35 @@ const formData = JSON.parse(formDataString);
       <div className="maincont2">
         <div className="mainname">{formData.communityname}</div>
         <div className="mainbutton">
-          <NavLink to="/Page3/Java">
+          <NavLink to="Java">
             <button className="but1">{formData.languages[0]}java</button>
           </NavLink>
-          <NavLink to="/Page3/Cplus">
+          <NavLink to="Cplus">
             <button className="but2">{formData.languages[1]}</button>
           </NavLink>
 
-          <NavLink to="/Page3/Reactjss">
+          <NavLink to="Reactjss">
             <button className="but3">{formData.languages[2]}</button>
           </NavLink>
 
-          <NavLink to="/Page3/JavaScr">
+          <NavLink to="JavaScr">
             <button className="but4">{formData.languages[3]}</button>
           </NavLink>
         </div>
 <Outlet/>     
       </div>
       <div className="mainleft">
-        <NavLink to="/Page3/Member">
+        <NavLink to="Member">
           <button className="but5">Member</button>
         </NavLink>
 
-        <NavLink to="/Page3/Resources">
+        <NavLink to="Resources">
           <button className="but6"> Resources</button>
         </NavLink>
-        <NavLink to="/Page3/Competition">
+        <NavLink to="Competition">
           <button className="but7"> Competition</button>
         </NavLink>
-        <NavLink to="/Page3/Videocall">
+        <NavLink to="Videocall">
           <button className="but8">Video Call</button>
         </NavLink>
       </div>
