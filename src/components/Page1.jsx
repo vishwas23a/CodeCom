@@ -9,7 +9,7 @@ import image6 from '../components/images/instagram.png'
 import image7 from '../components/images/github.png'
 import image8 from '../components/images/logo1.png'
 import image9 from '../components/images/aboutback.svg'
-
+import { NavLink } from "react-router-dom";
 
 
 
@@ -35,9 +35,9 @@ const Navigate=useNavigate();
             <h2>Creat</h2>
             <h3> Community</h3>
             
-        <button  className="button1" role="button" onClick={()=>Navigate('Page2')}>
+       <NavLink to="Page2"> <button  className="button1" role="button" >
               Create
-            </button>
+            </button></NavLink>
           </div>
           <div className="codebox2" style={{backgroundImage:`url(${image4})`}}>
             <h2>Join a</h2>
@@ -126,18 +126,18 @@ const Navigate=useNavigate();
         <div className="footer">
           <div className="product1">
             <h2>Resource</h2>
-            <a onClick={()=>Navigate('/SolutionBlog')} >Solution</a>
-            <a onClick={()=>Navigate('/SolutionBlog')} >Chat System</a>
-            <a onClick={()=>Navigate('/SolutionBlog')} >Notes</a>
+         <NavLink to='SolutionBlog'>  <a >Solution</a>
+            <a >Chat System</a>
+            <a>Notes</a>
 
-            <a onClick={()=>Navigate('/SolutionBlog')} >Video call</a>
+            <a>Video call</a></NavLink> 
           </div>
           <div className="product2">
             <h2>Target</h2>
-            <a onClick={()=>Navigate('/Target')}>College</a>
-            <a onClick={()=>Navigate('/Target')}>Coding clubs</a>
-            <a onClick={()=>Navigate('/Target')}>Friends</a>
-            <a onClick={()=>Navigate('/Target')}>Open Community</a>
+      <NavLink to='Target' >   <a>College</a>
+            <a >Coding clubs</a>
+            <a >Friends</a>
+            <a >Open Community</a></NavLink>   
           </div>
           <div className="product3">
             <h2>Contact Info</h2>

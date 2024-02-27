@@ -64,8 +64,6 @@ const router= createBrowserRouter([
       path:'Videocall',
       element:<Videocall/>,
     }
-
-  
   ]
   },
   {
