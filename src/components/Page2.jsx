@@ -15,16 +15,11 @@ export default function Page2() {
       number:'',
       passcode:'',
       languages:[]
-
-
-
     });
+
     const handleInputChange = (e) => {
       const { name, value } = e.target;
-      setFormData(prevState => ({
-        ...prevState,
-        [name]: value
-      }));
+      setFormData(prevState=>({...prevState,[name]: value}));
     };
     const handleCheckboxChange = (e) => {
       const { name, checked } = e.target;

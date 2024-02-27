@@ -41,8 +41,8 @@ const formData = JSON.parse(formDataString);
       <div className="maincont2">
         <div className="mainname">{formData.communityname}</div>
         <div className="mainbutton">
-          <NavLink to="/Page3">
-            <button className="but1">{formData.languages[0]}</button>
+          <NavLink to="/Page3/Java">
+            <button className="but1">{formData.languages[0]}java</button>
           </NavLink>
           <NavLink to="/Page3/Cplus">
             <button className="but2">{formData.languages[1]}</button>
@@ -56,7 +56,7 @@ const formData = JSON.parse(formDataString);
             <button className="but4">{formData.languages[3]}</button>
           </NavLink>
         </div>
-        <Outlet />
+<Outlet/>     
       </div>
       <div className="mainleft">
         <NavLink to="/Page3/Member">
