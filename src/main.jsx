@@ -2,7 +2,6 @@ import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Page2 from './components/Page2.jsx'
-import Category from './components/Category.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -32,7 +31,7 @@ const router= createBrowserRouter([
   
   {
     path: "Page3",
-    element: <Category/>,
+    element: <Page3/>,
     children:[{
       path:'Java',
       element:<Java/>,

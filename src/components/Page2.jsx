@@ -4,6 +4,7 @@ import pageimg1 from '../components/images/back.jpg'
 import pageimg2 from '../components/images/codeimage.svg'
 import pagelogo1 from '../components/images/previous.png'
 
+import { NavLink} from 'react-router-dom'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 export default function Page2() {
@@ -35,14 +36,11 @@ export default function Page2() {
         }));
       }
     };
-    const navigateToPage3=()=>{
-      Navigate('/Page3')
-    }
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     localStorage.setItem('formData', JSON.stringify(formData));
 
-    navigateToPage3();
   };
 
   
@@ -78,9 +76,9 @@ export default function Page2() {
 
          <label>React<input type="checkbox" name='react' onChange={handleCheckboxChange} className='check' /></label>
          <label>JavaScript<input type="checkbox" name='javascript' onChange={handleCheckboxChange} className='check' /></label>
-         <button className="page2button" role="button" onClick={handleSubmit}>
+        <NavLink to="/Page3"> <button className="page2button" role="button">
               Create
-            </button>
+            </button></NavLink>
              
         </div>
 
