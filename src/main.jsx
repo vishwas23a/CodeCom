@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import Page2 from './components/Page2.jsx'
 import Category from './components/Category.jsx'
@@ -19,11 +18,12 @@ import Member from './components/Member.jsx'
 import Resources from './components/Resources.jsx'
 import Competition from './components/Competition.jsx'
 import Videocall from './components/Videocall.jsx'
+import Page1 from './components/Page1.jsx'
 
 const router= createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <Page1/>,
   },
   {
     path:"Page2",
@@ -80,6 +80,7 @@ const router= createBrowserRouter([
 
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
+  <StrictMode>
   <RouterProvider router={router} />
-
+  </StrictMode>
 )
