@@ -35,7 +35,7 @@ const Navigate=useNavigate();
             <h2>Creat</h2>
             <h3> Community</h3>
             
-       <NavLink to="Page2"> <button  className="button1" role="button" >
+       <NavLink to="/Page2"> <button  className="button1" role="button" >
               Create
             </button></NavLink>
           </div>

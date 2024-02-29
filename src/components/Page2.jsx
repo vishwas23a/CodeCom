@@ -40,7 +40,7 @@ export default function Page2() {
   const handleSubmit = (e) => {
     e.preventDefault();
     localStorage.setItem('formData', JSON.stringify(formData));
-
+    Navigate('/Page3')
   };
 
   
@@ -76,9 +76,9 @@ export default function Page2() {
 
          <label>React<input type="checkbox" name='react' onChange={handleCheckboxChange} className='check' /></label>
          <label>JavaScript<input type="checkbox" name='javascript' onChange={handleCheckboxChange} className='check' /></label>
-        <NavLink to="/Page3"> <button className="page2button" role="button">
+        <button className="page2button" role="button" onClick={handleSubmit}>
               Create
-            </button></NavLink>
+            </button>
              
         </div>
 

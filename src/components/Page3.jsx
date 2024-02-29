@@ -42,7 +42,7 @@ const formData = JSON.parse(formDataString);
         <div className="mainname">{formData.communityname}</div>
         <div className="mainbutton">
           <NavLink to="Java">
-            <button className="but1">{formData.languages[0]}java</button>
+            <button className="but1">{formData.languages[0]}</button>
           </NavLink>
           <NavLink to="Cplus">
             <button className="but2">{formData.languages[1]}</button>
