@@ -20,7 +20,7 @@ const Navigate=useNavigate();
   
   return (
     <>
-
+    <div className="mainBack"> 
       <div className="background1" style={{backgroundImage:`url(${image1})`}}>
         <div className="joined"> <button>Already Joined?</button></div>
         <div className="code">
@@ -145,6 +145,7 @@ const Navigate=useNavigate();
             <a href="https://wa.me/919506862942?text=Hello%20Vishwas" target="_blank"> 9506862942</a>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

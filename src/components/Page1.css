@@ -1,18 +1,16 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
+
 .background1 {
   background-size: cover;
-  height: 603px;
+  height: 100vh;
   width: 100%;
 }
 .joined{
   position: absolute;
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  width: 97vw;
   margin-top: 1%;
+  z-index: 2;
 }
 .joined button{
   padding: 10px;
@@ -38,7 +36,7 @@ border: 0px solid #5468ff  ;
 .code {
   display: flex;
   justify-content: space-between;
-  height: 36%;
+  height: 36vh;
 }
 .codehead {
   margin-left: 8%;
@@ -66,43 +64,39 @@ border: 0px solid #5468ff  ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.codeimage {
-  /* background-image: url("./images/codeimage.svg"); */
+.codeimage  {
   background-size: cover;
-  height: 240%;
-  width: 55%;
-  margin-left: 4%;
-  margin-top: 5%;
-  z-index: +1;
+  height: 90vh;
+  width: 56vw;
+  z-index: 1;
+  margin-top: 4vh;
 }
 
 .codebox {
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
-
+  width: 50vw;
   align-items: center;
-  height: 50%;
-  gap: 10px;
+  height: 50vh; 
   margin-top: 2%;
 }
 .codebox1 {
-  height: 94%;
-  width: 44%;
+  height: 50vh;
+  width: 23vw;
   /* background-image: url("./images/notes.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 .codebox2 {
-  height: 94%;
-  width: 44%;
+  height: 50vh;
+  width: 23vw;
   /* background-image: url("./images/notes.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 .codebox1 h2 {
   color: white;
-  font-size: 1.9rem;
+  font-size: 30px;
   margin: auto;
   margin-top: 100px;
   margin-left: 90px;
